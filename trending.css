@@ -1,0 +1,31 @@
+#body{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "main main main"
+    "footer footer footer";
+    position:static;
+}
+header,main,footer,nav{
+    background-color: steelblue;
+    margin-bottom: 10px;
+}
+header{
+    grid-area: header;
+    height: 30px;
+}
+main{
+    grid-area: main;
+    height: 200vh;
+    
+}
+footer{
+    grid-area: footer;
+}
+nav{
+    grid-area: nav;
+    height: 30px;
+    position: sticky;
+    margin-top: 0px;
+}

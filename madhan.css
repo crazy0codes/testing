@@ -1,0 +1,125 @@
+body{
+    background-color:rgb(0, 0, 0);
+}
+nav{
+    background-color: #ffffff;
+}
+header{
+    font-weight: 900;
+    font-size: 30px;
+    font-family: 'Koulen', cursive;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+ul#ok{
+    display: flex ;
+    list-style: none;
+    justify-content:flex-end;
+}
+nav ul#ok{
+    display: flex;
+}
+nav ul li{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-weight: 300;
+    font-family: 'Koulen', cursive;
+    font-size: 20px;
+}
+div#navbar{
+    background-color: rgb(245, 9, 36);
+}
+a{
+    color: #050000;
+    text-decoration:none;
+    font-weight: 200;
+}
+a:hover{
+ color: white;
+}
+#anime{
+    display:flexbox;
+}
+img{
+    width: 250px;
+    height: 400px;
+}
+p:hover{
+    background-color: #ff0000;
+    transition-duration: 1s;
+
+}
+#p{
+    list-style: none;
+    font-family: 'Koulen', cursive;
+}
+ul#p{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    flex-wrap: wrap;
+    border-width: 10px;
+}
+li,.na{
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+p{
+    color:black;
+    text-align: center;
+    background-color: darkcyan;
+}
+#end{
+    display: flex;
+    align-content: center;
+    background-color: gray;
+    justify-content: center;
+    gap: 100px;
+}
+ul.p1{
+    list-style: none;
+    font-family: 'Koulen', cursive;
+    font-size: 15px;
+
+}
+#content{
+    background-color: gray;
+    font-family: 'Koulen', cursive;
+    font-size: 15px;
+    box-shadow: #f90808;
+}
+li:hover{
+    color: #fdfdfd;
+}
+div#form{
+   background-color: #fdfdfd;
+   border-radius: 20px;
+   background-blend-mode:screen;
+   box-shadow: 10000px;
+   box-shadow: #050000;
+   padding-right: 50px;
+   width: 250px;
+   height: 400px;
+   padding-top: 10px;
+
+
+}
+li{
+    text-align: center;
+    list-style: none;
+    margin-top: 50px;
+}
+#submit{
+    background-color: #f90808;
+    font-family: 'Koulen', cursive;
+    font-size: 15px;
+    width: 100px;
+    border-radius: 20px;
+}
+#name,#password,#gmail{
+    border-radius: 25px;
+    border-width:2px;
+}
