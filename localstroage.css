@@ -5,8 +5,9 @@ body{
     display: grid;
     grid-template-areas: 
     "header header header"
-    "nav content content"
-    "nav footer footer";
+    "nav nav nav"
+    "content content content"
+    "footer footer footer";
     grid-gap: 2px;
     grid-template-columns: 180px auto auto;
     position: relative;
@@ -41,13 +42,14 @@ main{
 nav{
     grid-area: nav;
 }
-select{
-    width: 180px;
-    font-size: larger;
-    background-color:#fff;
+#nav_list{
+    display: flex;
+    float: right;
+    margin-right: 20px;
+    list-style-type:none;
 }
-select:hover{
-
+.nav_items{
+    margin-right: 30px;
 }
 footer{
     grid-area: footer;
