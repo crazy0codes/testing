@@ -22,11 +22,11 @@ footer{
 main{
     grid-area: main;
 }
-#madhan{
+#div1{
     background-color: white;
     height: 80vh;
 }
-#bharath{
+#div2{
     padding: 50px;
 }
 form{
