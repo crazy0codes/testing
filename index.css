@@ -1,0 +1,51 @@
+body{
+    background-color:whitesmoke;
+}
+#container{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "main main main"
+    "footer footer footer";
+}
+header{
+    grid-area: header;
+}
+footer{
+    font-family: 'Koulen', cursive;
+    grid-area: footer;
+    color:#437df9;
+}
+main{
+    grid-area: main;
+    display: grid;
+    grid-template-areas: 
+    'content1 content3 content2';
+    grid-template-columns: 1fr 360px 1fr ;
+    padding: 70px;
+}
+#god1{
+    grid-area: content1;
+}
+#god2{
+    grid-area: content3;
+}
+form{
+    grid-area: content2;
+    display: grid;
+    place-content: center;    
+    box-shadow: black 0px 0px 1px 0px ;    
+    padding: 70px;
+    background-color: white;
+
+}
+button{
+    background-color:	#437df9;
+    color: white;
+    font-family: 'Koulen', cursive;
+}
+label{
+
+    font-size :20px;
+    font-family: 'Koulen', cursive;
+}
