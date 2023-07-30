@@ -2,6 +2,158 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fb.com</title>
+</head>
+<body>
+    <style>
+        * {
+    margin: 0px;
+}
+main {
+    height: 80%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 55px;
+}
+
+body {
+    background-color: #fff;
+    height: 100dvh;
+}
+
+body, button, input, label, select, td, textarea {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+.logo > p{
+    font-size: 28px;
+    padding-left: 32px;
+
+}
+
+img {
+    height: 106px;
+}
+
+.login-box {
+    background-color: rgb(255, 255, 255);
+    padding: 6px ;
+    padding-bottom: 0px;
+    width: 372px;
+    height: 319px;
+    border-radius: 6px;
+    border-color: white;
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.2);
+}
+
+.logo {
+    width: 482px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input,button {
+    height: 50px;
+    border-radius: 6px;
+    margin:6px;
+}
+
+input {
+    border: 1.4px solid #ccc;
+    padding-left: 17px;
+    font-size: 18px;
+    
+}
+
+input::placeholder {
+    color: rgb(144, 118, 118);
+    font-size: 16px;
+}
+
+input:focus {
+    outline: 1.4px solid blue;
+}
+
+button {
+    background-color: #1877f2;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    border:1.3px solid white;
+}
+
+a {
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    color: #1877f2;
+    position: relative;
+}
+
+a::after {
+    content:  "";
+    width: max-content;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.create-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.create-acc {
+    background-color: #3fc723;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0px 16px;
+
+}
+
+.create-acc:hover {
+    background-color: #36a420;
+    border-color: #36a420;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+    </style>
+    <main>
+        <div class="logo"><img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg"><p>On Facebook people can bond and share joys and sorrows with friends.</p></div>
+        <div class="login-box">
+            <form>
+                <input placeholder="Email or phone number" type="text"/>
+                <input placeholder="password" type="password"/>
+                <button placeholder="submit">Log in</button>
+            </form>
+            <a href="#">Forgot password?</a>
+            <div class="create-box">
+                <button class="create-acc">Create a new account</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
@@ -33,4 +185,4 @@
   </main>
   <footer> <hr><center>I am the Creator</center> </footer>
 </div>
-</body>
+</body> -->
